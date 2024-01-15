@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Orange To-Do',
       theme: ThemeData(
-        scaffoldBackgroundColor: backgroundColor,
+        scaffoldBackgroundColor: bgColor,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: const StartPage(),
