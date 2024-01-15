@@ -14,6 +14,7 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.9
 
 dev_dependencies:
   flutter_test:
@@ -26,3 +27,13 @@ flutter:
   assets:
     - assets/png/
     # Add more assets if needed
+
+flutter_native_splash:
+  color: "#F3DDC0"
+  image: assets/png/LOGO_big.png
+  
+android_12:
+  color: "#F3DDC0"
+  image: assets/png/LOGO_big.png
+
+  
