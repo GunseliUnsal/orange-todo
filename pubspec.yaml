@@ -21,7 +21,18 @@ dependencies:
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
+    sdk: flutter  
+  flutter_launcher_icons: "^0.13.1" 
+  
+#flutter app icon
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/png/icon/app_icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+  #database
   hive_generator: ^2.0.1
   build_runner: ^2.1.11
 
@@ -33,6 +44,7 @@ flutter:
     - assets/png/
     # Add more assets if needed
 
+#splash screen
 flutter_native_splash:
   color: "#F3DDC0"
   image: assets/png/LOGO_big.png
